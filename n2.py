@@ -7,3 +7,4 @@ for line in my_f:
     sr += float(line.split()[1])
     k += 1
 print("Средняя величина дохода составляет", float('{:.2f}'.format(sr/k)))
+my_f.close()
